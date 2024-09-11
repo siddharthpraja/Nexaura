@@ -11,7 +11,8 @@ export default function MagicLinkEmail({
 }) {
   return (
     <Html>
-      <Heading as="h2"> Hello {params.name} </Heading>
+      <body>
+      <Heading> Hello {params.name} </Heading>
       <Text>
         Here is your Magic link for login and it will be valid only for 15
         minutes.
@@ -27,7 +28,8 @@ export default function MagicLinkEmail({
       <Hr />
 
       <Heading as="h3">Regards</Heading>
-      <Text>Coding with Tushar</Text>
+      <Text>Accountbiz</Text>
+      </body>
     </Html>
   );
 }

@@ -34,7 +34,7 @@ export default function ForgotPassword() {
   return (
     <>
       <ToastContainer />
-      <div className="h-screen w-screen flex justify-center items-center">
+      <div className="h-[calc(100vh-80px)] w-screen flex justify-center items-center">
         <div className="w-[500px] p-5 rounded-lg shadow-lg">
           <h1 className="text-2xl font-bold">Forgot Passowrd ?</h1>
           <p>
@@ -46,7 +46,7 @@ export default function ForgotPassword() {
               <label className="block">Email</label>
               <input
                 type="email"
-                placeholder="tushar@gmail.com"
+                placeholder="Enter your mail id"
                 className="w-full h-10 p-2 border rounded-md outline-red-400"
                 onChange={(event) => setEmail(event.target.value)}
               />

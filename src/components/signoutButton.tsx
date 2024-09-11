@@ -4,9 +4,9 @@ import { signOut } from "next-auth/react";
 
 export default function SignoutButton({ type }: { type?: string }) {
   return (
-    <div>
+    <div className="w-full">
       <button
-        className="p-3 bg-purple-300 text-black rounded-md"
+        className="flex gap-2 justify-center rounded-md px-4 w-[calc(100vw-64px)] m-8  py-3 bg-neutral-300 text-neutral-800 border items-center text-lg "
         onClick={() =>
           signOut({
             callbackUrl: type == "Admin" ? "/admin/login" : "/login",

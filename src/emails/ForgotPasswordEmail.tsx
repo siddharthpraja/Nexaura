@@ -11,23 +11,25 @@ export default function ForgotPasswordEmail({
 }) {
   return (
     <Html>
-      <Heading as="h2"> Hello {params.name} </Heading>
-      <Text>
-        We received the reset password request. if it's not you then pls ignore
-        it.
-      </Text>
-      <Button
-        pX={20}
-        pY={20}
-        href={params.url}
-        style={{ background: "#000", color: "#FFFFFF" }}
-      >
-        Click Me
-      </Button>
-      <Hr />
+      <body>
+        <Heading as="h2"> Hello {params.name} </Heading>
+        <Text>
+          We received the reset password request. if it's not you then pls
+          ignore it.
+        </Text>
+        <Button
+          pX={20}
+          pY={20}
+          href={params.url}
+          style={{ background: "#000", color: "#FFFFFF" }}
+        >
+          Click Me
+        </Button>
+        <Hr />
 
-      <Heading as="h3">Regards</Heading>
-      <Text>Coding with Tushar</Text>
+        <Heading as="h3">Regards</Heading>
+        <Text>Accountbiz</Text>
+      </body>
     </Html>
   );
 }

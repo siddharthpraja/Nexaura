@@ -37,7 +37,7 @@ export default function MagicLink() {
   return (
     <>
       <ToastContainer />
-      <div className="h-screen w-screen flex justify-center items-center">
+      <div className="h-[calc(100vh-80px)] w-screen flex justify-center items-center">
         <div className="w-[500px] rounded-lg shadow-md p-5">
           <h1 className="font-bold text-2xl">Magic Link</h1>
           <form onSubmit={handleSubmit}>

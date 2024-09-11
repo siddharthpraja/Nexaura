@@ -43,7 +43,7 @@ export default function ResetPassword({
   return (
     <>
       <ToastContainer />
-      <div className="h-screen w-screen flex justify-center items-center">
+      <div className=" w-screen flex justify-center items-center h-[calc(100vh-80px)]">
         <div className="w-[500px] p-5 rounded-lg shadow-lg">
           <h1 className="text-2xl font-bold">Reset Passowrd ?</h1>
 
